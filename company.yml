@@ -1,10 +1,6 @@
 ---
 spring:
   profiles: cloud
-  application:
-    name: company
-  cloud:
-    config:
-      uri: ${vcap.services.my_config_server_svc.credentials.url}  
+   
 massage: Subhankar_Chatterjee
 
