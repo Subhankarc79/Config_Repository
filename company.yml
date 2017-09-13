@@ -2,5 +2,5 @@
 spring:
   profiles: cloud
    
-massage: Subhankar
+message: Subhankar
 
