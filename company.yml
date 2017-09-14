@@ -8,5 +8,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://adminuser:admin@eureka-schatterjee.cfapps.io/eureka
+  instance:
+    hostname: company-schatterjee.cfapps.io
+    nonSecurePort: 80
 
 
