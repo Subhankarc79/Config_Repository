@@ -9,6 +9,7 @@ eureka:
     serviceUrl:
       defaultZone: http://adminuser:admin@eureka-schatterjee.cfapps.io/eureka
   instance:
-    hostname: roster-schatterjee.cfapps.io
+    #hostname: roster-schatterjee.cfapps.io
+    hostname: ${vcap.application.application_uris[0]}
     nonSecurePort: 80
 
