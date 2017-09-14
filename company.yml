@@ -10,7 +10,7 @@ eureka:
       defaultZone: http://adminuser:admin@eureka-schatterjee.cfapps.io/eureka
   instance:
     #hostname: company-schatterjee.cfapps.io
-    hostname: ${vcap.application.company-0.0.1-rc.22.uris}
+    hostname: ${vcap.application.application_uris[0]}
     nonSecurePort: 80
 
 
