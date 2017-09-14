@@ -11,6 +11,6 @@ eureka:
       
 eureka:
   instance:
-    hostname: company-schatterjee.cfapps.io
+    hostname: http://company-schatterjee.cfapps.io
     nonSecurePort: 80
 
