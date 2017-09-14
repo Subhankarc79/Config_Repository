@@ -4,13 +4,6 @@ spring:
    
 message: Hello Subhankar - This is Company App
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://adminuser:admin@eureka-schatterjee.cfapps.io/eureka
-  instance:
-    #hostname: company-schatterjee.cfapps.io
-    hostname: ${vcap.application.application_uris[0]}
-    nonSecurePort: 80
+
 
 
