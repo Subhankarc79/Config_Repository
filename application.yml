@@ -1,4 +1,5 @@
 ---
+greeting: Bonjour
 
 info:
   description: Training configuration repo
